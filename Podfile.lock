@@ -1,0 +1,19 @@
+PODS:
+  - FTPManager (1.6.3)
+  - MSDynamicsDrawerViewController (1.5.1)
+  - Reachability (3.1.1)
+  - SIAlertView (1.3)
+
+DEPENDENCIES:
+  - FTPManager (~> 1.6)
+  - MSDynamicsDrawerViewController (~> 1.5.1)
+  - Reachability (~> 3.1.1)
+  - SIAlertView (~> 1.2)
+
+SPEC CHECKSUMS:
+  FTPManager: 98182948237fecb69b996f3792caadb702d3fc49
+  MSDynamicsDrawerViewController: 2409ca61449d8541a3ee640bfd2d230c3734d3c4
+  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
+  SIAlertView: e6d0d786c3a3f6e456b0e8b9376d0c34d68e827b
+
+COCOAPODS: 0.29.0

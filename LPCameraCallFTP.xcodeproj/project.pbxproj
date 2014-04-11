@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CB58D6318F82AD90072660E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB58D6218F82AD90072660E /* Foundation.framework */; };
+		0CB58D6518F82AD90072660E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB58D6418F82AD90072660E /* CoreGraphics.framework */; };
+		0CB58D6718F82AD90072660E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB58D6618F82AD90072660E /* UIKit.framework */; };
+		0CB58D6D18F82AD90072660E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CB58D6B18F82AD90072660E /* InfoPlist.strings */; };
+		0CB58D6F18F82AD90072660E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58D6E18F82AD90072660E /* main.m */; };
+		0CB58D7518F82AD90072660E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB58D7418F82AD90072660E /* Images.xcassets */; };
+		0CB58D7C18F82AD90072660E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB58D7B18F82AD90072660E /* XCTest.framework */; };
+		0CB58D7D18F82AD90072660E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB58D6218F82AD90072660E /* Foundation.framework */; };
+		0CB58D7E18F82AD90072660E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB58D6618F82AD90072660E /* UIKit.framework */; };
+		0CB58D9218F82AE80072660E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB58D9118F82AE80072660E /* AVFoundation.framework */; };
+		0CB58D9418F82AEF0072660E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB58D9318F82AEF0072660E /* CoreTelephony.framework */; };
+		0CB58DA018F8310F0072660E /* LPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58D9718F8310F0072660E /* LPAppDelegate.m */; };
+		0CB58DA118F8310F0072660E /* LPCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58D9A18F8310F0072660E /* LPCamPreviewView.m */; };
+		0CB58DA218F8310F0072660E /* LPCamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58D9C18F8310F0072660E /* LPCamViewController.m */; };
+		0CB58DA318F8310F0072660E /* LPCamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CB58D9F18F8310F0072660E /* LPCamViewController.xib */; };
+		0CB58DA618F834120072660E /* LPMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DA518F834120072660E /* LPMenuViewController.m */; };
+		0CB58DAC18F834280072660E /* MSMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DA918F834280072660E /* MSMenuCell.m */; };
+		0CB58DAD18F834280072660E /* MSMenuTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DAB18F834280072660E /* MSMenuTableViewHeader.m */; };
+		0CB58DB018F835B50072660E /* LPFTPSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DAF18F835B50072660E /* LPFTPSettingsViewController.m */; };
+		0CB58DB218F835C00072660E /* LPFTPSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CB58DB118F835C00072660E /* LPFTPSettingsViewController.xib */; };
+		0CB58DBF18F8391E0072660E /* LPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DB518F8391E0072660E /* LPButton.m */; };
+		0CB58DC018F8391E0072660E /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = 0CB58DB718F8391E0072660E /* Icon */; };
+		0CB58DC118F8391E0072660E /* LPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DB918F8391E0072660E /* LPTextField.m */; };
+		0CB58DC218F8391E0072660E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0CB58DBB18F8391E0072660E /* LICENSE */; };
+		0CB58DC318F8391E0072660E /* LPToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DBD18F8391E0072660E /* LPToastView.m */; };
+		0CB58DC418F8391E0072660E /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 0CB58DBE18F8391E0072660E /* README.mdown */; };
+		0CB58DC718F839D10072660E /* LPSharedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DC618F839D10072660E /* LPSharedManager.m */; };
+		0CB58DCF18F845920072660E /* LPButtonCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DCA18F845920072660E /* LPButtonCellView.m */; };
+		0CB58DD018F845920072660E /* LPHeaderCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DCC18F845920072660E /* LPHeaderCellView.m */; };
+		0CB58DD118F845920072660E /* LPTextFieldCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DCE18F845920072660E /* LPTextFieldCellView.m */; };
+		0CB58DD518F847280072660E /* LPTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DD418F847280072660E /* LPTapGestureRecognizer.m */; };
+		0CB58DDA18F847690072660E /* LPButtonCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CB58DD718F847690072660E /* LPButtonCellView.xib */; };
+		0CB58DDB18F847690072660E /* LPHeaderCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CB58DD818F847690072660E /* LPHeaderCellView.xib */; };
+		0CB58DDC18F847690072660E /* LPTextFieldCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CB58DD918F847690072660E /* LPTextFieldCellView.xib */; };
+		0CB58DE018F8581D0072660E /* LPFTPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DDF18F8581D0072660E /* LPFTPUser.m */; };
+		0CB58DE618F85B990072660E /* LPSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DE418F85B990072660E /* LPSwitch.m */; };
+		0CB58DE918F85BC50072660E /* LPSwitchCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB58DE818F85BC50072660E /* LPSwitchCellView.m */; };
+		0CB58DEB18F85C240072660E /* LPSwitchCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CB58DEA18F85C240072660E /* LPSwitchCellView.xib */; };
+		0CB58DED18F880A50072660E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB58DEC18F880A50072660E /* CFNetwork.framework */; };
+		0CB58DEF18F8907E0072660E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB58DEE18F8907E0072660E /* Social.framework */; };
+		0CB58DF118F894970072660E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CB58DF018F894970072660E /* Settings.bundle */; };
+		46315ED230FA4399B3DB2F2A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA060A12FD4445B85677E19 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CB58D7F18F82AD90072660E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CB58D5718F82AD90072660E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CB58D5E18F82AD90072660E;
+			remoteInfo = LPCameraCallFTP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CB58D5F18F82AD90072660E /* LPCameraCallFTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPCameraCallFTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB58D6218F82AD90072660E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CB58D6418F82AD90072660E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0CB58D6618F82AD90072660E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0CB58D6A18F82AD90072660E /* LPCameraCallFTP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LPCameraCallFTP-Info.plist"; sourceTree = "<group>"; };
+		0CB58D6C18F82AD90072660E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CB58D6E18F82AD90072660E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CB58D7018F82AD90072660E /* LPCameraCallFTP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LPCameraCallFTP-Prefix.pch"; sourceTree = "<group>"; };
+		0CB58D7418F82AD90072660E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0CB58D7A18F82AD90072660E /* LPCameraCallFTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPCameraCallFTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB58D7B18F82AD90072660E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0CB58D9118F82AE80072660E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0CB58D9318F82AEF0072660E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0CB58D9618F8310F0072660E /* LPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPAppDelegate.h; sourceTree = "<group>"; };
+		0CB58D9718F8310F0072660E /* LPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAppDelegate.m; sourceTree = "<group>"; };
+		0CB58D9918F8310F0072660E /* LPCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCamPreviewView.h; sourceTree = "<group>"; };
+		0CB58D9A18F8310F0072660E /* LPCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCamPreviewView.m; sourceTree = "<group>"; };
+		0CB58D9B18F8310F0072660E /* LPCamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCamViewController.h; sourceTree = "<group>"; };
+		0CB58D9C18F8310F0072660E /* LPCamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCamViewController.m; sourceTree = "<group>"; };
+		0CB58D9F18F8310F0072660E /* LPCamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPCamViewController.xib; sourceTree = "<group>"; };
+		0CB58DA418F834120072660E /* LPMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPMenuViewController.h; sourceTree = "<group>"; };
+		0CB58DA518F834120072660E /* LPMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPMenuViewController.m; sourceTree = "<group>"; };
+		0CB58DA818F834280072660E /* MSMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMenuCell.h; sourceTree = "<group>"; };
+		0CB58DA918F834280072660E /* MSMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMenuCell.m; sourceTree = "<group>"; };
+		0CB58DAA18F834280072660E /* MSMenuTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMenuTableViewHeader.h; sourceTree = "<group>"; };
+		0CB58DAB18F834280072660E /* MSMenuTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMenuTableViewHeader.m; sourceTree = "<group>"; };
+		0CB58DAE18F835B50072660E /* LPFTPSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFTPSettingsViewController.h; sourceTree = "<group>"; };
+		0CB58DAF18F835B50072660E /* LPFTPSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFTPSettingsViewController.m; sourceTree = "<group>"; };
+		0CB58DB118F835C00072660E /* LPFTPSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPFTPSettingsViewController.xib; sourceTree = "<group>"; };
+		0CB58DB418F8391E0072660E /* LPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPButton.h; sourceTree = "<group>"; };
+		0CB58DB518F8391E0072660E /* LPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPButton.m; sourceTree = "<group>"; };
+		0CB58DB718F8391E0072660E /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
+		0CB58DB818F8391E0072660E /* LPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPTextField.h; sourceTree = "<group>"; };
+		0CB58DB918F8391E0072660E /* LPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTextField.m; sourceTree = "<group>"; };
+		0CB58DBB18F8391E0072660E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0CB58DBC18F8391E0072660E /* LPToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPToastView.h; sourceTree = "<group>"; };
+		0CB58DBD18F8391E0072660E /* LPToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPToastView.m; sourceTree = "<group>"; };
+		0CB58DBE18F8391E0072660E /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
+		0CB58DC518F839D10072660E /* LPSharedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSharedManager.h; sourceTree = "<group>"; };
+		0CB58DC618F839D10072660E /* LPSharedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSharedManager.m; sourceTree = "<group>"; };
+		0CB58DC918F845920072660E /* LPButtonCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPButtonCellView.h; sourceTree = "<group>"; };
+		0CB58DCA18F845920072660E /* LPButtonCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPButtonCellView.m; sourceTree = "<group>"; };
+		0CB58DCB18F845920072660E /* LPHeaderCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHeaderCellView.h; sourceTree = "<group>"; };
+		0CB58DCC18F845920072660E /* LPHeaderCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHeaderCellView.m; sourceTree = "<group>"; };
+		0CB58DCD18F845920072660E /* LPTextFieldCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPTextFieldCellView.h; sourceTree = "<group>"; };
+		0CB58DCE18F845920072660E /* LPTextFieldCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTextFieldCellView.m; sourceTree = "<group>"; };
+		0CB58DD318F847280072660E /* LPTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPTapGestureRecognizer.h; sourceTree = "<group>"; };
+		0CB58DD418F847280072660E /* LPTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTapGestureRecognizer.m; sourceTree = "<group>"; };
+		0CB58DD718F847690072660E /* LPButtonCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPButtonCellView.xib; sourceTree = "<group>"; };
+		0CB58DD818F847690072660E /* LPHeaderCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPHeaderCellView.xib; sourceTree = "<group>"; };
+		0CB58DD918F847690072660E /* LPTextFieldCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPTextFieldCellView.xib; sourceTree = "<group>"; };
+		0CB58DDE18F8581D0072660E /* LPFTPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFTPUser.h; sourceTree = "<group>"; };
+		0CB58DDF18F8581D0072660E /* LPFTPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFTPUser.m; sourceTree = "<group>"; };
+		0CB58DE318F85B990072660E /* LPSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSwitch.h; sourceTree = "<group>"; };
+		0CB58DE418F85B990072660E /* LPSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSwitch.m; sourceTree = "<group>"; };
+		0CB58DE718F85BC50072660E /* LPSwitchCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSwitchCellView.h; sourceTree = "<group>"; };
+		0CB58DE818F85BC50072660E /* LPSwitchCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSwitchCellView.m; sourceTree = "<group>"; };
+		0CB58DEA18F85C240072660E /* LPSwitchCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPSwitchCellView.xib; sourceTree = "<group>"; };
+		0CB58DEC18F880A50072660E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0CB58DEE18F8907E0072660E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		0CB58DF018F894970072660E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		0E3DB72C431B4B42A26BAE43 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BCA060A12FD4445B85677E19 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CB58D5C18F82AD90072660E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB58DEF18F8907E0072660E /* Social.framework in Frameworks */,
+				0CB58DED18F880A50072660E /* CFNetwork.framework in Frameworks */,
+				0CB58D9418F82AEF0072660E /* CoreTelephony.framework in Frameworks */,
+				0CB58D9218F82AE80072660E /* AVFoundation.framework in Frameworks */,
+				0CB58D6518F82AD90072660E /* CoreGraphics.framework in Frameworks */,
+				0CB58D6718F82AD90072660E /* UIKit.framework in Frameworks */,
+				0CB58D6318F82AD90072660E /* Foundation.framework in Frameworks */,
+				46315ED230FA4399B3DB2F2A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB58D7718F82AD90072660E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB58D7C18F82AD90072660E /* XCTest.framework in Frameworks */,
+				0CB58D7E18F82AD90072660E /* UIKit.framework in Frameworks */,
+				0CB58D7D18F82AD90072660E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CB58D5618F82AD90072660E = {
+			isa = PBXGroup;
+			children = (
+				0CB58D6818F82AD90072660E /* LPCameraCallFTP */,
+				0CB58D6118F82AD90072660E /* Frameworks */,
+				0CB58D6018F82AD90072660E /* Products */,
+				0E3DB72C431B4B42A26BAE43 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		0CB58D6018F82AD90072660E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58D5F18F82AD90072660E /* LPCameraCallFTP.app */,
+				0CB58D7A18F82AD90072660E /* LPCameraCallFTPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CB58D6118F82AD90072660E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DEE18F8907E0072660E /* Social.framework */,
+				0CB58DEC18F880A50072660E /* CFNetwork.framework */,
+				0CB58D9318F82AEF0072660E /* CoreTelephony.framework */,
+				0CB58D9118F82AE80072660E /* AVFoundation.framework */,
+				0CB58D6218F82AD90072660E /* Foundation.framework */,
+				0CB58D6418F82AD90072660E /* CoreGraphics.framework */,
+				0CB58D6618F82AD90072660E /* UIKit.framework */,
+				0CB58D7B18F82AD90072660E /* XCTest.framework */,
+				BCA060A12FD4445B85677E19 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CB58D6818F82AD90072660E /* LPCameraCallFTP */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58D7418F82AD90072660E /* Images.xcassets */,
+				0CB58D9518F8310F0072660E /* Application */,
+				0CB58D9818F8310F0072660E /* Classes */,
+				0CB58D9D18F8310F0072660E /* Libraries */,
+				0CB58D9E18F8310F0072660E /* Views */,
+				0CB58D6918F82AD90072660E /* Supporting Files */,
+			);
+			path = LPCameraCallFTP;
+			sourceTree = "<group>";
+		};
+		0CB58D6918F82AD90072660E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58D6A18F82AD90072660E /* LPCameraCallFTP-Info.plist */,
+				0CB58D6B18F82AD90072660E /* InfoPlist.strings */,
+				0CB58D6E18F82AD90072660E /* main.m */,
+				0CB58D7018F82AD90072660E /* LPCameraCallFTP-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CB58D9518F8310F0072660E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DF018F894970072660E /* Settings.bundle */,
+				0CB58D9618F8310F0072660E /* LPAppDelegate.h */,
+				0CB58D9718F8310F0072660E /* LPAppDelegate.m */,
+				0CB58DC518F839D10072660E /* LPSharedManager.h */,
+				0CB58DC618F839D10072660E /* LPSharedManager.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0CB58D9818F8310F0072660E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DDD18F858120072660E /* Objects */,
+				0CB58DC818F845920072660E /* Cells */,
+				0CB58DA718F834280072660E /* Reusable Views */,
+				0CB58DA418F834120072660E /* LPMenuViewController.h */,
+				0CB58DA518F834120072660E /* LPMenuViewController.m */,
+				0CB58D9B18F8310F0072660E /* LPCamViewController.h */,
+				0CB58D9C18F8310F0072660E /* LPCamViewController.m */,
+				0CB58D9918F8310F0072660E /* LPCamPreviewView.h */,
+				0CB58D9A18F8310F0072660E /* LPCamPreviewView.m */,
+				0CB58DAE18F835B50072660E /* LPFTPSettingsViewController.h */,
+				0CB58DAF18F835B50072660E /* LPFTPSettingsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0CB58D9D18F8310F0072660E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DE118F85B990072660E /* LPSwitch */,
+				0CB58DD218F847280072660E /* LPTapGestureRecognizer */,
+				0CB58DB318F8391E0072660E /* LPButton */,
+				0CB58DB618F8391E0072660E /* LPTextField */,
+				0CB58DBA18F8391E0072660E /* LPToastView */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		0CB58D9E18F8310F0072660E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DD618F847690072660E /* Cells */,
+				0CB58D9F18F8310F0072660E /* LPCamViewController.xib */,
+				0CB58DB118F835C00072660E /* LPFTPSettingsViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0CB58DA718F834280072660E /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DA818F834280072660E /* MSMenuCell.h */,
+				0CB58DA918F834280072660E /* MSMenuCell.m */,
+				0CB58DAA18F834280072660E /* MSMenuTableViewHeader.h */,
+				0CB58DAB18F834280072660E /* MSMenuTableViewHeader.m */,
+			);
+			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		0CB58DB318F8391E0072660E /* LPButton */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DB418F8391E0072660E /* LPButton.h */,
+				0CB58DB518F8391E0072660E /* LPButton.m */,
+			);
+			path = LPButton;
+			sourceTree = "<group>";
+		};
+		0CB58DB618F8391E0072660E /* LPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DB718F8391E0072660E /* Icon */,
+				0CB58DB818F8391E0072660E /* LPTextField.h */,
+				0CB58DB918F8391E0072660E /* LPTextField.m */,
+			);
+			path = LPTextField;
+			sourceTree = "<group>";
+		};
+		0CB58DBA18F8391E0072660E /* LPToastView */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DBB18F8391E0072660E /* LICENSE */,
+				0CB58DBC18F8391E0072660E /* LPToastView.h */,
+				0CB58DBD18F8391E0072660E /* LPToastView.m */,
+				0CB58DBE18F8391E0072660E /* README.mdown */,
+			);
+			path = LPToastView;
+			sourceTree = "<group>";
+		};
+		0CB58DC818F845920072660E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DC918F845920072660E /* LPButtonCellView.h */,
+				0CB58DCA18F845920072660E /* LPButtonCellView.m */,
+				0CB58DCB18F845920072660E /* LPHeaderCellView.h */,
+				0CB58DCC18F845920072660E /* LPHeaderCellView.m */,
+				0CB58DCD18F845920072660E /* LPTextFieldCellView.h */,
+				0CB58DCE18F845920072660E /* LPTextFieldCellView.m */,
+				0CB58DE718F85BC50072660E /* LPSwitchCellView.h */,
+				0CB58DE818F85BC50072660E /* LPSwitchCellView.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0CB58DD218F847280072660E /* LPTapGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DD318F847280072660E /* LPTapGestureRecognizer.h */,
+				0CB58DD418F847280072660E /* LPTapGestureRecognizer.m */,
+			);
+			path = LPTapGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		0CB58DD618F847690072660E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DEA18F85C240072660E /* LPSwitchCellView.xib */,
+				0CB58DD718F847690072660E /* LPButtonCellView.xib */,
+				0CB58DD818F847690072660E /* LPHeaderCellView.xib */,
+				0CB58DD918F847690072660E /* LPTextFieldCellView.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0CB58DDD18F858120072660E /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DDE18F8581D0072660E /* LPFTPUser.h */,
+				0CB58DDF18F8581D0072660E /* LPFTPUser.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		0CB58DE118F85B990072660E /* LPSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				0CB58DE318F85B990072660E /* LPSwitch.h */,
+				0CB58DE418F85B990072660E /* LPSwitch.m */,
+			);
+			path = LPSwitch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CB58D5E18F82AD90072660E /* LPCameraCallFTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB58D8B18F82AD90072660E /* Build configuration list for PBXNativeTarget "LPCameraCallFTP" */;
+			buildPhases = (
+				A985F547485B4E729D4B204A /* Check Pods Manifest.lock */,
+				0CB58D5B18F82AD90072660E /* Sources */,
+				0CB58D5C18F82AD90072660E /* Frameworks */,
+				0CB58D5D18F82AD90072660E /* Resources */,
+				63C24BDAF0B449219410E281 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPCameraCallFTP;
+			productName = LPCameraCallFTP;
+			productReference = 0CB58D5F18F82AD90072660E /* LPCameraCallFTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CB58D7918F82AD90072660E /* LPCameraCallFTPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB58D8E18F82AD90072660E /* Build configuration list for PBXNativeTarget "LPCameraCallFTPTests" */;
+			buildPhases = (
+				0CB58D7618F82AD90072660E /* Sources */,
+				0CB58D7718F82AD90072660E /* Frameworks */,
+				0CB58D7818F82AD90072660E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CB58D8018F82AD90072660E /* PBXTargetDependency */,
+			);
+			name = LPCameraCallFTPTests;
+			productName = LPCameraCallFTPTests;
+			productReference = 0CB58D7A18F82AD90072660E /* LPCameraCallFTPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CB58D5718F82AD90072660E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Luka Penger";
+				TargetAttributes = {
+					0CB58D5E18F82AD90072660E = {
+						DevelopmentTeam = VD448M8BPE;
+					};
+					0CB58D7918F82AD90072660E = {
+						TestTargetID = 0CB58D5E18F82AD90072660E;
+					};
+				};
+			};
+			buildConfigurationList = 0CB58D5A18F82AD90072660E /* Build configuration list for PBXProject "LPCameraCallFTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CB58D5618F82AD90072660E;
+			productRefGroup = 0CB58D6018F82AD90072660E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CB58D5E18F82AD90072660E /* LPCameraCallFTP */,
+				0CB58D7918F82AD90072660E /* LPCameraCallFTPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CB58D5D18F82AD90072660E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB58DDA18F847690072660E /* LPButtonCellView.xib in Resources */,
+				0CB58DEB18F85C240072660E /* LPSwitchCellView.xib in Resources */,
+				0CB58DC218F8391E0072660E /* LICENSE in Resources */,
+				0CB58DDB18F847690072660E /* LPHeaderCellView.xib in Resources */,
+				0CB58DF118F894970072660E /* Settings.bundle in Resources */,
+				0CB58DA318F8310F0072660E /* LPCamViewController.xib in Resources */,
+				0CB58DDC18F847690072660E /* LPTextFieldCellView.xib in Resources */,
+				0CB58DC418F8391E0072660E /* README.mdown in Resources */,
+				0CB58DC018F8391E0072660E /* Icon in Resources */,
+				0CB58D6D18F82AD90072660E /* InfoPlist.strings in Resources */,
+				0CB58DB218F835C00072660E /* LPFTPSettingsViewController.xib in Resources */,
+				0CB58D7518F82AD90072660E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB58D7818F82AD90072660E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63C24BDAF0B449219410E281 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A985F547485B4E729D4B204A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CB58D5B18F82AD90072660E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB58DCF18F845920072660E /* LPButtonCellView.m in Sources */,
+				0CB58DD018F845920072660E /* LPHeaderCellView.m in Sources */,
+				0CB58DA218F8310F0072660E /* LPCamViewController.m in Sources */,
+				0CB58DA618F834120072660E /* LPMenuViewController.m in Sources */,
+				0CB58DC718F839D10072660E /* LPSharedManager.m in Sources */,
+				0CB58DBF18F8391E0072660E /* LPButton.m in Sources */,
+				0CB58DC118F8391E0072660E /* LPTextField.m in Sources */,
+				0CB58DAC18F834280072660E /* MSMenuCell.m in Sources */,
+				0CB58DA118F8310F0072660E /* LPCamPreviewView.m in Sources */,
+				0CB58DE018F8581D0072660E /* LPFTPUser.m in Sources */,
+				0CB58DAD18F834280072660E /* MSMenuTableViewHeader.m in Sources */,
+				0CB58DA018F8310F0072660E /* LPAppDelegate.m in Sources */,
+				0CB58DD518F847280072660E /* LPTapGestureRecognizer.m in Sources */,
+				0CB58DE618F85B990072660E /* LPSwitch.m in Sources */,
+				0CB58DD118F845920072660E /* LPTextFieldCellView.m in Sources */,
+				0CB58DB018F835B50072660E /* LPFTPSettingsViewController.m in Sources */,
+				0CB58D6F18F82AD90072660E /* main.m in Sources */,
+				0CB58DE918F85BC50072660E /* LPSwitchCellView.m in Sources */,
+				0CB58DC318F8391E0072660E /* LPToastView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB58D7618F82AD90072660E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CB58D8018F82AD90072660E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CB58D5E18F82AD90072660E /* LPCameraCallFTP */;
+			targetProxy = 0CB58D7F18F82AD90072660E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CB58D6B18F82AD90072660E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CB58D6C18F82AD90072660E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CB58D8918F82AD90072660E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0CB58D8A18F82AD90072660E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CB58D8C18F82AD90072660E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3DB72C431B4B42A26BAE43 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPCameraCallFTP/LPCameraCallFTP-Prefix.pch";
+				INFOPLIST_FILE = "LPCameraCallFTP/LPCameraCallFTP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0CB58D8D18F82AD90072660E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3DB72C431B4B42A26BAE43 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPCameraCallFTP/LPCameraCallFTP-Prefix.pch";
+				INFOPLIST_FILE = "LPCameraCallFTP/LPCameraCallFTP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0CB58D8F18F82AD90072660E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LPCameraCallFTP.app/LPCameraCallFTP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPCameraCallFTP/LPCameraCallFTP-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LPCameraCallFTPTests/LPCameraCallFTPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0CB58D9018F82AD90072660E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LPCameraCallFTP.app/LPCameraCallFTP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPCameraCallFTP/LPCameraCallFTP-Prefix.pch";
+				INFOPLIST_FILE = "LPCameraCallFTPTests/LPCameraCallFTPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CB58D5A18F82AD90072660E /* Build configuration list for PBXProject "LPCameraCallFTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB58D8918F82AD90072660E /* Debug */,
+				0CB58D8A18F82AD90072660E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CB58D8B18F82AD90072660E /* Build configuration list for PBXNativeTarget "LPCameraCallFTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB58D8C18F82AD90072660E /* Debug */,
+				0CB58D8D18F82AD90072660E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CB58D8E18F82AD90072660E /* Build configuration list for PBXNativeTarget "LPCameraCallFTPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB58D8F18F82AD90072660E /* Debug */,
+				0CB58D9018F82AD90072660E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CB58D5718F82AD90072660E /* Project object */;
+}
