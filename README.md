@@ -1,5 +1,10 @@
 ##LPCameraCallFTP
 
+![ScreenShots](ScreenShots/img1.png)
+![ScreenShots](ScreenShots/img2.png)
+![ScreenShots](ScreenShots/img3.png)
+![ScreenShots](ScreenShots/img4.png)
+
 Created by Luka Penger
 http://lukapenger.eu
 
